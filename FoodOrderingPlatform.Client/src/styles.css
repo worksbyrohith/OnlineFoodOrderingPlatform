@@ -9,7 +9,7 @@
 
 body {
   font-family: var(--bb-font);
-  background-color: #fafafa;
+  background-color: #f5f3ef; /* Matching BurntBrotta Reference Background */
   color: #333;
 }
 
@@ -57,4 +57,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .shadow-sm {
   box-shadow: 0 4px 15px rgba(0,0,0,0.04) !important;
+}
+
+/* Custom Hero Layout */
+.hero-section {
+  min-height: 480px;
+}
+
+.hero-title {
+  letter-spacing: -1px;
+}
+
+.decorative-dot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--bb-secondary);
+  border-radius: 50%;
+}
+
+.search-box {
+  max-width: 550px;
 }
