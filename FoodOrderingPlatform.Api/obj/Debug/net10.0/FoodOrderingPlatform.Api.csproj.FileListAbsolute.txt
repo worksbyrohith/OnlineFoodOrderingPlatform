@@ -158,3 +158,4 @@ C:\Users\Rohith\OneDrive\Desktop\BurntBurrota\OnlineFoodOrderingPlatform\FoodOrd
 C:\Users\Rohith\OneDrive\Desktop\BurntBurrota\OnlineFoodOrderingPlatform\FoodOrderingPlatform.Api\obj\Debug\net10.0\ref\FoodOrderingPlatform.Api.dll
 C:\Users\Rohith\OneDrive\Desktop\BurntBurrota\OnlineFoodOrderingPlatform\FoodOrderingPlatform.Api\bin\Debug\net10.0\BCrypt.Net-Next.dll
 C:\Users\Rohith\OneDrive\Desktop\BurntBurrota\OnlineFoodOrderingPlatform\FoodOrderingPlatform.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Rohith\OneDrive\Desktop\BurntBurrota\OnlineFoodOrderingPlatform\FoodOrderingPlatform.Api\obj\Debug\net10.0\FoodOrderingPlatform.Api.sourcelink.json
