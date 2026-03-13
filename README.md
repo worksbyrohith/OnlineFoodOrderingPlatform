@@ -250,7 +250,7 @@ ng serve
 │  Users   │     │  Restaurants │    │ MenuItems │
 ├──────────┤     ├──────────────┤    ├───────────┤
 │ UserId   │     │ RestaurantId │◄───┐ ItemId    │
-│ Name     │     │ Name         │    │Restaurant │──┘
+│ Name     │     │ Name         │    │Restaurant │
 │ Email *  │     │ Address      │    │  Id (FK)  │
 │ Password │     │ Phone        │    │ Name      │
 │ Hash     │     │ ImageUrl     │    │ Desc      │
