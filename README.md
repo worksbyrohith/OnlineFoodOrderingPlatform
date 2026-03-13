@@ -40,29 +40,29 @@
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                    CLIENT (Angular)                  │
-│    Components → Services → HTTP Interceptors         │
+│                    CLIENT (Angular)                 │
+│    Components → Services → HTTP Interceptors        │
 └──────────────────────┬──────────────────────────────┘
                        │ HTTP/REST
                        ▼
 ┌─────────────────────────────────────────────────────┐
-│               ASP.NET Core Web API                   │
-│                                                      │
-│  ┌─────────────┐  ┌──────────────┐  ┌────────────┐ │
-│  │ Controllers  │→│   Services   │→│ Repository  │ │
-│  │ (API Layer)  │  │(Business     │  │ (Data       │ │
-│  │              │  │  Logic)      │  │  Access)    │ │
-│  └─────────────┘  └──────────────┘  └─────┬──────┘ │
+│               ASP.NET Core Web API                  │
+│                                                     │
+│  ┌─────────────┐  ┌──────────────┐  ┌────────────┐  │
+│  │ Controllers │→ │   Services   │→ │ Repository │  │
+│  │ (API Layer) │  │(Business     │  │ (Data      │  │
+│  │             │  │  Logic)      │  │  Access)   │  │
+│  └─────────────┘  └──────────────┘  └─────┬──────┘  │
 │                                            │        │
 │  ┌─────────────┐  ┌──────────────┐         │        │
-│  │    DTOs      │  │  JWT Helper  │         │        │
+│  │    DTOs     │  │  JWT Helper  │         │        │
 │  └─────────────┘  └──────────────┘         │        │
 └────────────────────────────────────────────┼────────┘
                                              │ EF Core
                                              ▼
                                     ┌──────────────┐
-                                    │  SQL Server   │
-                                    │  (Database)   │
+                                    │  SQL Server  │
+                                    │  (Database)  │
                                     └──────────────┘
 ```
 
@@ -246,11 +246,11 @@ ng serve
 ## 🗄️ Database Schema
 
 ```
-┌──────────┐     ┌──────────────┐     ┌───────────┐
-│  Users   │     │  Restaurants  │     │ MenuItems │
-├──────────┤     ├──────────────┤     ├───────────┤
-│ UserId   │     │ RestaurantId │◄───┐│ ItemId    │
-│ Name     │     │ Name         │    ││ Restaurant│──┘
+┌──────────┐     ┌──────────────┐    ┌───────────┐
+│  Users   │     │  Restaurants │    │ MenuItems │
+├──────────┤     ├──────────────┤    ├───────────┤
+│ UserId   │     │ RestaurantId │◄───┐ ItemId    │
+│ Name     │     │ Name         │    │Restaurant │──┘
 │ Email *  │     │ Address      │    │  Id (FK)  │
 │ Password │     │ Phone        │    │ Name      │
 │ Hash     │     │ ImageUrl     │    │ Desc      │
@@ -263,7 +263,7 @@ ng serve
       │         ├───────────┤              │
       └────────►│ OrderId   │              │
                 │ UserId(FK)│    ┌─────────┴──┐
-                │ Restaur.Id│    │ OrderItems  │
+                │ Restaur.Id│    │ OrderItems │
                 │ Total Amt │    ├────────────┤
                 │ Status    │◄───│ OrderItemId│
                 │ Address   │    │ OrderId(FK)│
