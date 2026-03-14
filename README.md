@@ -1,8 +1,15 @@
 <p align="center">
   <img src="https://img.shields.io/badge/🔥-BurntBrotta-FF6B35?style=for-the-badge&labelColor=1a1a2e" alt="BurntBrotta" />
 </p>
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+<center>
 
-<h1 align="center">🍕 BurntBrotta — Online Food Ordering Platform</h1>
+ <h1 align="center">🍕 BurntBrotta — Online Food Ordering Platform</h1>
+
+</center>
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
 <p align="center">
   <em>A full-stack food ordering application built with Angular &amp; ASP.NET Core Web API</em>
