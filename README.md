@@ -139,55 +139,9 @@ OnlineFoodOrderingPlatform/
 
 ---
 
-## 🚀 Getting Started
 
-### Prerequisites
 
-- [.NET SDK 10.0+](https://dotnet.microsoft.com/download)
-- [Node.js 18+](https://nodejs.org/) & npm
-- [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-- [Angular CLI](https://angular.dev/) (`npm install -g @angular/cli`)
 
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/OnlineFoodOrderingPlatform.git
-cd OnlineFoodOrderingPlatform
-```
-
-### 2️⃣ Setup the Backend
-
-```bash
-cd FoodOrderingPlatform.Api
-
-# Restore NuGet packages
-dotnet restore
-
-# Update database connection string in appsettings.json if needed
-# Default: Server=.\SQLEXPRESS;Database=FoodOrderingDB;...
-
-# Apply database migrations
-dotnet ef database update
-
-# Run the backend
-dotnet run
-```
-
-> 🟢 Backend will start at `http://localhost:5231` (or the port in launchSettings.json)
-
-### 3️⃣ Setup the Frontend
-
-```bash
-cd FoodOrderingPlatform.Client
-
-# Install dependencies
-npm install
-
-# Start the development server
-ng serve
-```
-
-> 🟢 Frontend will start at `http://localhost:4200`
 
 ### 4️⃣ Default Admin Login
 
